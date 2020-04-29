@@ -400,7 +400,7 @@ In the meantime, you can use the following courses to catch up.</h5>
             <div class='card-header'>
               <div class='row'>
                 <div class='col-md-12'>
-                  <h3 class='mb-0' v-text='title'>Your profile</h3>
+                  <h3 class='mb-0' v-text='title'>{{title}}</h3>
                 </div>
                 
               </div>
@@ -501,7 +501,7 @@ In the meantime, you can use the following courses to catch up.</h5>
                     <div class='col-md-4'> 
                     <button class='btn btn-icon btn-primary' type='button'>
                 <span class='btn-inner--icon'><i class='ni ni-bag-17'></i></span>
-                <span class='btn-inner--text' onclick='submit_data();'>Update</span>
+                <span class='btn-inner--text'>Update</span>
               </button>
                     </div>
 
@@ -554,6 +554,7 @@ In the meantime, you can use the following courses to catch up.</h5>
     </div>
     <!-- Argon Scripts -->
     <script src='https://cdn.jsdelivr.net/gh/worlaalex/notitia-frontend-dashboard/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js'></script>
+    <script src='https://cdn.jsdelivr.net/npm/vue/dist/vue.js'></script>
     <script src='https://cdn.jsdelivr.net/gh/worlaalex/notitia-frontend-dashboard/assets/vendor/js-cookie/js.cookie.js'></script>
     <script src='https://cdn.jsdelivr.net/gh/worlaalex/notitia-frontend-dashboard/assets/vendor/jquery.scrollbar/jquery.scrollbar.min.js'></script>
     <script src='https://cdn.jsdelivr.net/gh/worlaalex/notitia-frontend-dashboard/assets/vendor/jquery-scroll-lock/dist/jquery-scrollLock.min.js'></script>
@@ -565,8 +566,8 @@ In the meantime, you can use the following courses to catch up.</h5>
     <script src='https://cdn.jsdelivr.net/gh/worlaalex/notitia-frontend-dashboard/assets/js/vendor/jvectormap/jquery-jvectormap-world-mill.js'></script>
     <!-- Argon JS -->
     <script src='https://cdn.jsdelivr.net/gh/worlaalex/notitia-frontend-dashboard/assets/js/argon.js?v=1.1.0'></script>
-    <script src='https://cdn.jsdelivr.net/npm/vue/dist/vue.js'></script>
-    <script src='https://cdn.jsdelivr.net/gh/worlaalex/notitia-frontend-dashboard/assets/js/app.js'></script>
+ 
+    <script src='https://raw.githubusercontent.com/worlaalex/notitia-frontend-dashboard/master/assets/js/app.js'></script>
     <!-- Core -->
 </div>";
 }

@@ -567,7 +567,7 @@ In the meantime, you can use the following courses to catch up.</h5>
     <!-- Argon JS -->
     <script src='https://cdn.jsdelivr.net/gh/worlaalex/notitia-frontend-dashboard/assets/js/argon.js?v=1.1.0'></script>
  
-    <script src='https://raw.githubusercontent.com/worlaalex/notitia-frontend-dashboard/master/assets/js/app.js'></script>
+    <script src='https://gitcdn.xyz/repo/worlaalex/notitia-frontend-dashboard/master/assets/js/app.js'></script>
     <!-- Core -->
 </div>";
 }

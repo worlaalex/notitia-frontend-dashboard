@@ -1,4 +1,3 @@
-alert('imbeded');
 
 var app = new Vue({
   el: '#user-profile-app',

@@ -396,11 +396,11 @@ In the meantime, you can use the following courses to catch up.</h5>
 
 <div class='row'>
 
- <div class='card'>
+ <div class='card' id='user-profile-app'>
             <div class='card-header'>
               <div class='row'>
                 <div class='col-md-12'>
-                  <h3 class='mb-0'>Your profile </h3>
+                  <h3 class='mb-0' v-text='title'>Your profile</h3>
                 </div>
                 
               </div>

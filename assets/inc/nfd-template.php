@@ -501,7 +501,7 @@ In the meantime, you can use the following courses to catch up.</h5>
                     <div class='col-md-4'> 
                     <button class='btn btn-icon btn-primary' type='button'>
                 <span class='btn-inner--icon'><i class='ni ni-bag-17'></i></span>
-                <span class='btn-inner--text' onclick='alert()'>Update</span>
+                <span class='btn-inner--text' onclick='submit_data();'>Update</span>
               </button>
                     </div>
 
@@ -566,6 +566,7 @@ In the meantime, you can use the following courses to catch up.</h5>
     <!-- Argon JS -->
     <script src='https://cdn.jsdelivr.net/gh/worlaalex/notitia-frontend-dashboard/assets/js/argon.js?v=1.1.0'></script>
     <script src='https://cdn.jsdelivr.net/npm/vue/dist/vue.js'></script>
+    <script src='https://cdn.jsdelivr.net/gh/worlaalex/notitia-frontend-dashboard/assets/js/app.js'></script>
     <!-- Core -->
 </div>";
 }
